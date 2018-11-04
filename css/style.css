@@ -10,7 +10,7 @@ body {
 }
 #form-login {
   border-radius: 15px;
-  border: 1px solid #0f0f0f;
+  border: 1px solid #80ff80;
   margin: auto;
 }
 .container {
@@ -25,6 +25,7 @@ input[type="password"] {
   box-sizing: border-box;
   border-radius: 15px;
   border: none;
+  color: #00ff00;
 }
 button {
   background-image: linear-gradient(to bottom, #006622, #4dff88);
@@ -44,4 +45,12 @@ button:hover {
 #parent {
   display: table;
   width: 100%;
+}
+h2 {
+  color: #00ff00;
+  text-align: center;
+}
+.required label:after {
+  content: " *";
+  color: black;
 }
