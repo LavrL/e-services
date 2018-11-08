@@ -59,10 +59,10 @@ h2 {
   text-align: center;
 }
 a:hover {
-    color: green;
-    text-decoration: underline;
+  color: green;
+  text-decoration: underline;
 }
-a{
-    text-decoration: none;
-    color: lightgreen;
+a {
+  text-decoration: none;
+  color: lightgreen;
 }
